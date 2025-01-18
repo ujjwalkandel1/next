@@ -1,5 +1,9 @@
 import { timestamp } from "drizzle-orm/mysql-core"
 import {pgTable,serial} from "drizzle-orm/pg-core"
+import { varchar } from "drizzle-orm/schema";
+
+
+
 
 
  export const recipes = pgTable("recipes",{
